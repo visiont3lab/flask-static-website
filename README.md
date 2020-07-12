@@ -1,4 +1,4 @@
-Create a static website using flask, datatable, matplotlib and plotly
+Create a static flask-website using flask, datatable, matplotlib and plotly
 
 ## Installation
 
