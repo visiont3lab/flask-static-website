@@ -42,7 +42,7 @@ def figStatic(df):
         #figdata_png = base64.b64encode(figfile.read())
         figdata_png = base64.b64encode(figfile.getvalue())
 
-        plt.savefig("static/image.png")
+        #plt.savefig("static/image.png")
         #fig.savefig("matplotlib_rcparams.png")
         fig_decoded = figdata_png.decode('utf8')
         return fig_decoded
