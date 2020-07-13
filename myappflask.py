@@ -6,10 +6,14 @@ import plotly.graph_objects as go
 import json
 from io import BytesIO
 import base64
+from flask_ngrok import run_with_ngrok
 
-# https://medium.com/@francescaguiducci/how-to-build-a-simple-personal-website-with-python-flask-and-netlify-d800c97c283d
+# !pip install Frozen-Flask flask flask_ngrok
+#https://medium.com/@francescaguiducci/how-to-build-a-simple-personal-website-with-python-flask-and-netlify-d800c97c283d
+
 
 app = Flask(__name__)
+run_with_ngrok(app)  
 
 def figStatic(df):
     df = df[df["denominazione_provincia"]=="Bologna"]
@@ -105,10 +109,11 @@ def figPlotly(df):
 @app.route("/")
 def index():
     df = pd.read_csv("https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-province/dpc-covid19-ita-province.csv")
-    dfhtml = df.head(30).to_html(index=False)
+    dfhtml = df.head(300).to_html(index=False)
     graphJSON = figPlotly(df)
     figstatic= figStatic(df)
+    print("kjkdfs")
     return render_template('index.html', table=dfhtml,graphJSON=graphJSON,figstatic=figstatic)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',debug=False, port=8080)
+    app.run() #debug=True)
