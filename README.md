@@ -30,6 +30,8 @@ python freeze.py
 2. Regression Pipeline
 <a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/regressione_pipeline.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+3. End-to-End Regression Pipeline
+<a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/End_to_End_Machine_Learning_Projec.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
