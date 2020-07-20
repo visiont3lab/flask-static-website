@@ -33,7 +33,7 @@ python freeze.py
 3. End-to-End Regression Pipeline
 <a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/End_to_End_Machine_Learning_Project.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-4. End-to-End Regression Pipeline
+4. Regression Going Deep
 <a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/Regression_going_deep.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
