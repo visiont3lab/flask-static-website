@@ -37,4 +37,8 @@ python freeze.py
 <a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/Regression_going_deep.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
+5. Regression pipeline class (to clean)
+<a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/regression_pipeline_to_clean.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
 
