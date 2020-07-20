@@ -38,7 +38,7 @@ python freeze.py
 
 
 5. Regression pipeline class (to clean)
-<a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/regression_pipeline_to_clean.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/regressione_pipeline_to_clean.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
 
