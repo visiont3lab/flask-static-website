@@ -44,4 +44,7 @@ python freeze.py
 6. Cataegorical Variables (Spiegazione)
 <a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/Categorical_Variables.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+7. Regressione Summary (Esempio Completo con variabili categoriche)
+<a href="https://colab.research.google.com/github/visiont3lab/flask-static-website/blob/master/Regression_Code_Summary.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 
